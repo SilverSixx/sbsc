@@ -25,35 +25,33 @@ const AboutSectionTwo = () => {
             </div>
           </div>
           <div className="w-full px-4 lg:w-1/2">
-            <div className="max-w-[470px]">
-              <div className="mb-9">
-                <h3 className="mb-4 text-xl font-bold text-black dark:text-white sm:text-2xl lg:text-xl xl:text-2xl">
-                  Bug free code
-                </h3>
-                <p className="text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                </p>
-              </div>
-              <div className="mb-9">
-                <h3 className="mb-4 text-xl font-bold text-black dark:text-white sm:text-2xl lg:text-xl xl:text-2xl">
-                  Premier support
-                </h3>
-                <p className="text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt.
-                </p>
-              </div>
-              <div className="mb-1">
-                <h3 className="mb-4 text-xl font-bold text-black dark:text-white sm:text-2xl lg:text-xl xl:text-2xl">
-                  Next.js
-                </h3>
-                <p className="text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
-                  Lorem ipsum dolor sit amet, sed do eiusmod tempor incididunt
-                  consectetur adipiscing elit setim.
-                </p>
-              </div>
-            </div>
+          <div className="max-w-[470px]">
+  <div className="mb-9">
+    <h3 className="mb-4 text-xl font-bold text-black dark:text-white sm:text-2xl lg:text-xl xl:text-2xl">
+      Mã không lỗi
+    </h3>
+    <p className="text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
+      Chúng tôi đảm bảo rằng mã nguồn được viết sạch sẽ và không có lỗi, mang đến trải nghiệm tốt nhất cho khách hàng.
+    </p>
+  </div>
+  <div className="mb-9">
+    <h3 className="mb-4 text-xl font-bold text-black dark:text-white sm:text-2xl lg:text-xl xl:text-2xl">
+      Hỗ trợ cao cấp
+    </h3>
+    <p className="text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
+      Đội ngũ hỗ trợ luôn sẵn sàng giúp đỡ với thời gian phản hồi nhanh và giải quyết các vấn đề phức tạp.
+    </p>
+  </div>
+  <div className="mb-1">
+    <h3 className="mb-4 text-xl font-bold text-black dark:text-white sm:text-2xl lg:text-xl xl:text-2xl">
+      Next.js
+    </h3>
+    <p className="text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
+      Next.js giúp xây dựng các ứng dụng web mạnh mẽ với hiệu suất cao, tối ưu hóa SEO và thời gian tải nhanh.
+    </p>
+  </div>
+</div>
+
           </div>
         </div>
       </div>

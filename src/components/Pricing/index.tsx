@@ -10,12 +10,13 @@ const Pricing = () => {
   return (
     <section id="pricing" className="relative z-10 py-16 md:py-20 lg:py-28">
       <div className="container">
-        <SectionTitle
-          title="Simple and Affordable Pricing"
-          paragraph="There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form."
-          center
-          width="665px"
-        />
+      <SectionTitle
+  title="Giá Cả Phải Chăng"
+  paragraph="Chúng tôi cung cấp các gói giá cả phải chăng cho tất cả mọi người. Bạn có thể chọn gói phù hợp với bạn."
+  center
+  width="665px"
+/>
+
 
         <div className="w-full">
           <div className="mb-8 flex justify-center md:mb-12 lg:mb-16">
@@ -27,7 +28,7 @@ const Pricing = () => {
                   : "text-dark dark:text-white"
               } mr-4 cursor-pointer text-base font-semibold`}
             >
-              Monthly
+              Hàng tháng 
             </span>
             <div
               onClick={() => setIsMonthly(!isMonthly)}
@@ -52,51 +53,52 @@ const Pricing = () => {
                   : "pointer-events-none text-primary"
               } ml-4 cursor-pointer text-base font-semibold`}
             >
-              Yearly
+              Hàng năm
             </span>
           </div>
         </div>
 
         <div className="grid grid-cols-1 gap-x-8 gap-y-10 md:grid-cols-2 lg:grid-cols-3">
-          <PricingBox
-            packageName="Lite"
-            price={isMonthly ? "40" : "120"}
-            duration={isMonthly ? "mo" : "yr"}
-            subtitle="Lorem ipsum dolor sit amet adiscing elit Mauris egestas enim."
-          >
-            <OfferList text="All UI Components" status="active" />
-            <OfferList text="Use with Unlimited Projects" status="active" />
-            <OfferList text="Commercial Use" status="active" />
-            <OfferList text="Email Support" status="active" />
-            <OfferList text="Lifetime Access" status="inactive" />
-            <OfferList text="Free Lifetime Updates" status="inactive" />
-          </PricingBox>
-          <PricingBox
-            packageName="Basic"
-            price={isMonthly ? "399" : "789"}
-            duration={isMonthly ? "mo" : "yr"}
-            subtitle="Lorem ipsum dolor sit amet adiscing elit Mauris egestas enim."
-          >
-            <OfferList text="All UI Components" status="active" />
-            <OfferList text="Use with Unlimited Projects" status="active" />
-            <OfferList text="Commercial Use" status="active" />
-            <OfferList text="Email Support" status="active" />
-            <OfferList text="Lifetime Access" status="active" />
-            <OfferList text="Free Lifetime Updates" status="inactive" />
-          </PricingBox>
-          <PricingBox
-            packageName="Plus"
-            price={isMonthly ? "589" : "999"}
-            duration={isMonthly ? "mo" : "yr"}
-            subtitle="Lorem ipsum dolor sit amet adiscing elit Mauris egestas enim."
-          >
-            <OfferList text="All UI Components" status="active" />
-            <OfferList text="Use with Unlimited Projects" status="active" />
-            <OfferList text="Commercial Use" status="active" />
-            <OfferList text="Email Support" status="active" />
-            <OfferList text="Lifetime Access" status="active" />
-            <OfferList text="Free Lifetime Updates" status="active" />
-          </PricingBox>
+        <PricingBox
+  packageName="Lite"
+  price={isMonthly ? "40" : "120"}
+  duration={isMonthly ? "T" : "N"}
+  subtitle="Phù hợp cho những người mới bắt đầu"
+>
+  <OfferList text="Tất cả các thành phần UI" status="active" />
+  <OfferList text="Sử dụng cho các dự án không giới hạn" status="active" />
+  <OfferList text="Sử dụng thương mại" status="active" />
+  <OfferList text="Hỗ trợ qua email" status="active" />
+  <OfferList text="Truy cập trọn đời" status="inactive" />
+  <OfferList text="Cập nhật miễn phí trọn đời" status="inactive" />
+</PricingBox>
+<PricingBox
+  packageName="Cơ Bản"
+  price={isMonthly ? "399" : "789"}
+  duration={isMonthly ? "T" : "N"}
+  subtitle="Phù hợp cho những người dùng cá nhân"
+>
+  <OfferList text="Tất cả các thành phần UI" status="active" />
+  <OfferList text="Sử dụng cho các dự án không giới hạn" status="active" />
+  <OfferList text="Sử dụng thương mại" status="active" />
+  <OfferList text="Hỗ trợ qua email" status="active" />
+  <OfferList text="Truy cập trọn đời" status="active" />
+  <OfferList text="Cập nhật miễn phí trọn đời" status="inactive" />
+</PricingBox>
+<PricingBox
+  packageName="Plus"
+  price={isMonthly ? "589" : "999"}
+  duration={isMonthly ? "T" : "N"}
+  subtitle="Phù hợp cho những người dùng doanh nghiệp"
+>
+  <OfferList text="Tất cả các thành phần UI" status="active" />
+  <OfferList text="Sử dụng cho các dự án không giới hạn" status="active" />
+  <OfferList text="Sử dụng thương mại" status="active" />
+  <OfferList text="Hỗ trợ qua email" status="active" />
+  <OfferList text="Truy cập trọn đời" status="active" />
+  <OfferList text="Cập nhật miễn phí trọn đời" status="active" />
+</PricingBox>
+
         </div>
       </div>
 
