@@ -1,0 +1,4 @@
+name = "startup-nextjs-template"
+compatibility_date = "2025-05-23"
+pages_build_output_dir = ".vercel/output/static"
+
